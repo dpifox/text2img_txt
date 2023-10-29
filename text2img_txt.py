@@ -36,7 +36,7 @@ def generate_image(text):
     draw.text((50, 50), text, fill=color, font=font)
     
     # 保存图片
-    image.save("output/" + imgname + ".png", format="PNG")
+    image.save("路径！！！/" + imgname + ".png", format="PNG")
     
 # 调用函数生成图片
 generate_image(txt)
