@@ -30,7 +30,7 @@ def generate_image(text):
     draw = ImageDraw.Draw(image)
     
     # 设置字体样式和大小
-    font = ImageFont.truetype("SmileySans-Oblique.ttf", 50)
+    font = ImageFont.truetype("下载一个tff的字体！！！.ttf", 50)
     
     # 在图片上绘制文本
     draw.text((50, 50), text, fill=color, font=font)
@@ -42,4 +42,4 @@ def generate_image(text):
 generate_image(txt)
 
 # 生成图片的路径（可用于服务器）
-print("output/" + imgname + ".png")
+print("路径！！！/" + imgname + ".png")
