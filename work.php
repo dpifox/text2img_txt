@@ -21,6 +21,11 @@ $command = "python3 $pythonScript $color $txt";
 // 执行Python脚本
 $output = shell_exec($command);
 
-// 输出Python脚本的结果
-echo $output;
+// 检查输出内容是否为空
+if (empty(trim($output))) {
+    echo '请检查参数';
+} else {
+    // 输出Python脚本的结果
+    echo $output;
+}
 ?>
