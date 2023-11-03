@@ -14,8 +14,7 @@
 
 # 不需要访问
 可以删除一下代码之后就可以直接本地py +文件调用
-<pre><code>
-import sys
+<pre><code>import sys
 # 获取传递的参数
 color = sys.argv[1] # 第一个参数
 txt =  sys.argv[2] # 第二个参数
